@@ -1,0 +1,7 @@
+apiVersion: v2
+name: helm-deployment-library
+description: Helm chart for the service deployments
+
+type: library
+version: 0.1.0
+appVersion: 0.1.0

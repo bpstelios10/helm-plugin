@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  helm-deployment-library:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2020-12-16T12:16:18.046699Z"
+    description: Helm chart for the service deployments
+    digest: 3ebd2e71c2273afda3355b0e3d626c52e6991060d07e99ea18573f436aa8a645
+    name: helm-deployment-library
+    type: library
+    urls:
+    - helm-deployment-library-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-16T12:16:18.046208Z"
