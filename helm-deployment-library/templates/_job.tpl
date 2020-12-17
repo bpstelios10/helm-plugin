@@ -36,3 +36,5 @@ spec:
             limits:
               memory: {{ .Values.limitsMemory }}
 {{- end -}}
+{{- define "exec2.job" -}}
+{{- end -}}
