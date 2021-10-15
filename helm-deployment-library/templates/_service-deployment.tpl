@@ -80,7 +80,7 @@ spec:
         lifecycle:
           preStop:
             exec:
-              command: ["bash", "-c", "cat /sys/fs/cgroup/memory/memory.stat"]
+              command: ["/bin/sh", "-c", "cat /sys/fs/cgroup/memory/memory.stat"]
         {{- end }}
       dnsPolicy: ClusterFirst
       restartPolicy: Always
