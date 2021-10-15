@@ -35,6 +35,12 @@ spec:
               cpu: {{ .Values.requestsCpu }}
             limits:
               memory: {{ .Values.limitsMemory }}
+          {{- if .Values.preStopDebugMemoryHook }}
+          lifecycle:
+            preStop:
+              exec:
+                command: ["bash", "-c", "cat /sys/fs/cgroup/memory/memory.stat"]
+          {{- end }}
 {{- end -}}
 {{- define "exec2.job" -}}
 {{- end -}}

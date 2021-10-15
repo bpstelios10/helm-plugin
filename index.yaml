@@ -3,7 +3,17 @@ entries:
   helm-deployment-library:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-10-15T07:29:30.388198+01:00"
+    created: "2021-10-15T07:55:50.96361+01:00"
+    description: Helm chart for the service deployments
+    digest: 05d9b503f6376b5f00156819f4ce1c117ab747fe0b58872626ce3534c96cbaeb
+    name: helm-deployment-library
+    type: library
+    urls:
+    - helm-deployment-library-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-10-15T07:55:50.963321+01:00"
     description: Helm chart for the service deployments
     digest: 07e4c91ae6a30e9f3eb7ff3f67a3e88bf87f394b4498179bcdb9861bfc17bbb6
     name: helm-deployment-library
@@ -13,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-10-15T07:29:30.387351+01:00"
+    created: "2021-10-15T07:55:50.962695+01:00"
     description: Helm chart for the service deployments
     digest: 5e0364ce1b979c7284c074c1e91afd31b4411d7cb14562ff0e8352ced0f2ed02
     name: helm-deployment-library
@@ -23,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-10-15T07:29:30.386502+01:00"
+    created: "2021-10-15T07:55:50.961958+01:00"
     description: Helm chart for the service deployments
     digest: 3ebd2e71c2273afda3355b0e3d626c52e6991060d07e99ea18573f436aa8a645
     name: helm-deployment-library
@@ -31,4 +41,4 @@ entries:
     urls:
     - helm-deployment-library-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-15T07:29:30.384764+01:00"
+generated: "2021-10-15T07:55:50.960171+01:00"
